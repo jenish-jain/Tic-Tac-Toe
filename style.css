@@ -1,0 +1,60 @@
+body{
+    background-color:#525252;
+    margin:5px 20px;
+    font-family:'McLaren', cursive;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:top;
+}
+
+.heading{
+    font-size:4rem;
+    margin:2px;
+    text-shadow:2px 3px whitesmoke;
+    opacity: 0.8;
+}
+
+.sub-heading{
+    font-size:2rem;
+    margin:2px;
+    opacity: 0.8;
+}
+
+.box{
+
+    background-color:#ca3e47;
+    height:7rem;
+    width:7rem;
+    font-size: 5rem;
+    border-radius:5px;
+    margin:3px;
+    opacity:0.7;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-collapse:collapse;
+}
+
+.box:hover{
+    opacity:1;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+}
+#tic-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin:20px;
+}
+
+#game-screen{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+}
